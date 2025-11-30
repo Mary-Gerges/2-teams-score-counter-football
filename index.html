@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>2 teams score counter football</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="container">
+        <div class="team">
+            <h2 id="teamAName">team 1</h2>
+            <div class="score" id="scoreA">0</div>
+            <button onclick="increaseA()">+1</button>
+            <button onclick="decreaseA()">-1</button>
+        </div>
+         <div class="team">
+            <h2 id="teamBName">team 2</h2>
+            <div class="score" id="scoreB">0</div>
+            <button onclick="increaseB()">+1</button>
+            <button onclick="decreaseB()">-1</button>
+        </div>
+    </div>
+    <button id="resetBtn" onclick="resetScores()">reset score</button>
+    <script src="script.js"></script>
+    </body>
+</html>
